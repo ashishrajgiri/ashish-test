@@ -1,0 +1,56 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #156dac;
+}
+
+header {
+    background-color: #3967bb;
+    color: #010508;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+section {
+    padding: 20px;
+    margin: 20px 0;
+    background-color: #2368ce;
+}
+
+.package, .gallery-item {
+    margin: 10px 0;
+}
+
+.package h3, .gallery-item p {
+    margin: 0;
+}
+
+.gallery-item img {
+    max-width: 100%;
+    height: auto;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form label, form input, form select {
+    margin: 5px 0;
+}
