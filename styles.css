@@ -2,12 +2,12 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #eef0f1;
+    background-color: #9a9797;
 }
 
 header {
-    background-color: #2b0f0b;
-    color: #e4e8ea;
+    background-color: #3d1214;
+    color: #fff;
     padding: 10px 0;
     text-align: center;
 }
@@ -23,22 +23,25 @@ nav ul li {
 }
 
 nav ul li a {
-    color: #f7f2f2;
+    color: #ece7e7;
     text-decoration: none;
 }
 
 section {
     padding: 20px;
     margin: 20px 0;
-    background-color: #c1a5a4;
+    background-color: #525252fa;
 }
 
-.package, .gallery-item {
-    margin: 10px 0;
+.gallery-container {
+    display: flex;
+    justify-content: space-around;
 }
 
-.package h3, .gallery-item p {
-    margin: 0;
+.gallery-item {
+    margin: 10px;
+    text-align: center;
+    flex: 0 0 12%; /* Adjust the width to fit all images in one row */
 }
 
 .gallery-item img {
@@ -46,11 +49,14 @@ section {
     height: auto;
 }
 
-form {
-    display: flex;
-    flex-direction: column;
+.gallery-item p {
+    margin: 5px 0;
+    font-style: italic;
 }
 
-form label, form input, form select {
-    margin: 5px 0;
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #312f2f;
+    color: #fff;
 }
